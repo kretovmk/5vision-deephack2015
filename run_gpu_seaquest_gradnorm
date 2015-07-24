@@ -1,0 +1,11 @@
+#!/bin/bash
+
+ENV="seaquest"
+agent="NeuralQLearnerGradNorm"
+lr=0.00025
+eval_freq=100000
+eval_steps=25000
+gpu_id=2
+#netfile="\"convnet_atari3_42\""
+
+source run_gpu

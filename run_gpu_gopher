@@ -1,0 +1,6 @@
+#!/bin/bash
+
+ENV="gopher"
+gpu_id=0
+
+source run_gpu

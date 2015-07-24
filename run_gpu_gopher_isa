@@ -1,0 +1,11 @@
+#!/bin/bash
+
+ENV="gopher"
+agent="NeuralQLearnerISA"
+lr=0.0002
+eval_freq=100000
+eval_steps=25000
+gpu_id=3
+#netfile="\"DQN3_0_1_gopher_NeuralQLearnerISA.t7\""
+
+source run_gpu

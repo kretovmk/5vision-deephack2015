@@ -1,0 +1,11 @@
+#!/bin/bash
+
+ENV="seaquest"
+discount=0.995
+eval_freq=100000
+eval_steps=25000
+gpu_id=0
+agent="NeuralQLearner_rs"
+replay_memory=300000
+
+source run_gpu

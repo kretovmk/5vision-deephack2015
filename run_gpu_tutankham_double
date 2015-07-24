@@ -1,0 +1,10 @@
+#!/bin/bash
+
+ENV="tutankham"
+agent="NeuralQLearnerDouble"
+lr=0.00025
+eval_freq=50000
+eval_steps=25000
+gpu_id=1
+
+source run_gpu

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+ENV="tutankham"
+agent="NeuralQLearnerISArs"
+lr=0.00023
+eval_freq=100000
+eval_steps=25000
+gpu_id=0
+netfile="\"convnet_atari3_crop\""
+
+source run_gpu

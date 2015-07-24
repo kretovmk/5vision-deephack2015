@@ -1,0 +1,6 @@
+#!/bin/bash
+
+ENV="seaquest"
+gpu_id=1
+
+source run_gpu

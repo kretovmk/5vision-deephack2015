@@ -1,0 +1,11 @@
+#!/bin/bash
+
+ENV="gopher"
+agent="NeuralQLearnerNorm"
+lr=0.00025
+eval_freq=100000
+eval_steps=25000
+replay_memory=500000
+gpu_id=2
+
+source run_gpu

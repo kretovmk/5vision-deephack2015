@@ -1,0 +1,6 @@
+#!/bin/bash
+
+ENV="tutankham"
+gpu_id=2
+
+source run_gpu

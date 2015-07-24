@@ -1,0 +1,9 @@
+#!/bin/bash
+
+ENV="tutankham"
+discount=0.9995
+eval_freq=100000
+eval_steps=25000
+gpu_id=3
+
+source run_gpu

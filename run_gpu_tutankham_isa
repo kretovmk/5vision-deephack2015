@@ -1,0 +1,10 @@
+#!/bin/bash
+
+ENV="tutankham"
+agent="NeuralQLearnerISA"
+lr=0.00025
+eval_freq=100000
+eval_steps=25000
+gpu_id=3
+
+source run_gpu
